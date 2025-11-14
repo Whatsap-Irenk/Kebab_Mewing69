@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Event Sekolah</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Event Sekolah 2025</h1>
+    <p>Bergabunglah dalam acara tahunan terbesar di sekolah kami!</p>
+    <button id="cta-btn">Daftar Sekarang</button>
+  </header>
+
+  <nav class="navbar">
+    <a href="#about">Tentang</a>
+    <a href="#schedule">Jadwal</a>
+    <a href="#gallery">Galeri</a>
+    <a href="#register">Daftar</a>
+  </nav>
+
+  <main>
+    <section id="about" class="section">
+      <h2>Tentang Event</h2>
+      <p>Event ini diadakan untuk mempererat kebersamaan antar siswa melalui kegiatan seni, olahraga, dan kompetisi kreatif.</p>
+    </section>
+
+    <section id="schedule" class="section">
+      <h2>Jadwal Kegiatan</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Hari</th>
+            <th>Kegiatan</th>
+            <th>Waktu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Senin</td>
+            <td>Upacara Pembukaan</td>
+            <td>08.00</td>
+          </tr>
+          <tr>
+            <td>Selasa</td>
+            <td>Lomba Futsal</td>
+            <td>09.00</td>
+          </tr>
+          <tr>
+            <td>Rabu</td>
+            <td>Pentas Seni</td>
+            <td>10.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2>Galeri</h2>
+      <div class="gallery">
+        <img src="Udin.jpg" alt="Kegiatan 1">
+        <img src="03.jpg" alt="Kegiatan 2">
+        <img src="02.jpg" alt="Kegiatan 3">
+      </div>
+    </section>
+
+    <section id="register" class="section">
+      <h2>Form Pendaftaran</h2>
+      <form id="form-daftar" action="#" method="post">
+        <label>Nama Lengkap</label>
+        <input type="text" name="nama" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Pilihan Kegiatan</label>
+        <select name="kegiatan" required>
+          <option value="">-- Pilih --</option>
+          <option value="futsal">Lomba Futsal</option>
+          <option value="seni">Pentas Seni</option>
+          <option value="ilmiah">Lomba Karya Ilmiah</option>
+        </select>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SMK Contoh - Event Sekolah</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
